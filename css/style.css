@@ -24,12 +24,11 @@ ul {
 .white {
   background-color: #fff;
 }
-/* HEADER */
+
 .section {
   padding: 120px 0;
 }
-/* Logo section */
-
+/* HEADER */
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -45,6 +44,18 @@ ul {
   align-items: center;
 }
 
+.header-buttons {
+  color: #2e2f42;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  letter-spacing: 0.32px;
+  display: inline-block;
+  padding: 24px 0;
+  text-decoration: none;
+}
+/* LOGO HEADER */
 .logo-nav {
   display: flex;
   align-items: center;
@@ -64,18 +75,6 @@ ul {
 .logo-part {
   color: #2e2f42;
   font-family: "Raleway", sans-serif;
-}
-.logo {
-  font-family: "Raleway", sans-serif;
-  color: #4d5ae5;
-  font-size: 18px;
-  line-height: 1.17;
-  font-weight: 800;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-.logo-part {
-  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17em;
@@ -83,29 +82,13 @@ ul {
   text-transform: uppercase;
   display: inline-block;
 }
-/* Page description */
+
 .list {
   display: flex;
   gap: 40px;
 }
 
-.header-buttons {
-  color: #2e2f42;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  letter-spacing: 0.32px;
-  display: inline-block;
-  padding: 24px 0;
-  text-decoration: none;
-}
-
-.page-description:hover,
-.page-description:focus {
-  color: #404bbf;
-}
-/* Contacts */
+/* CONTACTS header*/
 .contact {
   font-style: normal;
   color: #757575;
@@ -125,17 +108,13 @@ ul {
   padding: 24px 0 24px;
   text-decoration: none;
 }
-.address-description:hover,
-.address-description:focus {
-  color: #404bbf;
-}
 
 .images {
   display: block;
 }
+/* TITLE SECTION 1 */
 .title {
   color: #fff;
-  background-color: #2e2f42;
   text-align: center;
   font-family: Roboto, sans-serif;
   font-size: 56px;
@@ -146,9 +125,11 @@ ul {
 }
 
 .title-section {
+  --bg-color: rgba(46, 47, 66, 0.7);
+  background-image: linear-gradient(var(--bg-color), var(--bg-color)),
+    url(../images/people-office\ 1.jpg);
   padding-bottom: 188px;
   padding-top: 188px;
-  background-color: var(--brand-color);
   width: 1440px;
   height: 600px;
   flex-shrink: 0;
@@ -180,6 +161,7 @@ ul {
   background-color: #404bbf;
 }
 
+/* SECTION 2 */
 .features-container {
   padding: 120px 0 120px;
 }
@@ -212,6 +194,53 @@ ul {
   letter-spacing: 0.32px;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.icons-container {
+  background-color: var(--background-color-button);
+  width: 264px;
+  height: 112px;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+
+.social-media-icons {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+}
+
+.elipse {
+  width: 40px;
+  height: 40px;
+  fill: #4d5ae5;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  margin-left: -8px;
+}
+.icons-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  list-style: none;
+}
+
+.icon-item {
+  flex-basis: calc((100% - 4 * 40) / 4);
+}
+/* SECTION 3 */
 .images-container {
   padding-bottom: 120px;
 }
@@ -236,23 +265,7 @@ ul {
   margin-bottom: 72px;
 }
 
-.section {
-  padding: 120px 0;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
+/* SECTION 4 */
 .chapters-color {
   background-color: #f4f4fd;
   padding: 120px 0;
@@ -291,48 +304,22 @@ ul {
   letter-spacing: 0.32px;
 }
 
-.teamcard-details {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-  margin-bottom: 8px;
+/* SECTION 5 */
+
+.customers-container {
+  padding: 120px 156px;
 }
 
-.buttons {
-  color: var(--buttons-color);
-  background-color: #f4f4fd;
-  font-family: Roboto, sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.64px;
-  cursor: pointer;
-  padding: 12px 24px 12px;
-  border: 1px solid #e7e9fc;
-  border-radius: 4px;
+.customers-title {
+  color: var(--brand-color);
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
 }
-
-.buttons:hover {
-  color: #ffffffff;
-  background-color: #404bbf;
-  border: 1px solid transparent;
-}
-
-.buttons:focus {
-  color: #fff;
-  background-color: #404bbf;
-  border: 1px solid transparent;
-}
-
-.functions-paragraphs {
-  color: var(--contacts-color);
-  font-family: Roboto, sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-}
-
+/* FOOTER */
 .footer {
   color: var(--footer-color);
   font-size: 16px;
@@ -360,6 +347,11 @@ ul {
   margin-bottom: 16px;
 }
 
+/* PORTOFOLIO */
+.portfolio-container {
+  padding: 96px 0 120px 0;
+}
+/* Buttons first row */
 .buttons-list-port {
   display: flex;
   flex-direction: row;
@@ -368,6 +360,32 @@ ul {
   margin-bottom: 72px;
 }
 
+.buttons {
+  color: var(--buttons-color);
+  background-color: #f4f4fd;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+  padding: 12px 24px 12px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+
+.buttons:hover {
+  color: #ffffffff;
+  background-color: #404bbf;
+  border: 1px solid transparent;
+}
+
+.buttons:focus {
+  color: #fff;
+  background-color: #404bbf;
+  border: 1px solid transparent;
+}
+/* IMAGES SECTION 1 */
 .images-port {
   display: flex;
   flex-wrap: wrap;
@@ -376,12 +394,24 @@ ul {
 }
 
 .item-image-port {
-  flex-basis: calc((100% - 48px) / 3);
+  flex-basis: calc(100% - 48px) / 3;
   text-decoration: none;
 }
 
-.portfolio-container {
-  padding: 96px 0 120px 0;
+.teamcard-details {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+
+.functions-paragraphs {
+  color: var(--contacts-color);
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 
 .logo-light {
