@@ -267,6 +267,28 @@ ul {
   justify-content: center;
 }
 
+.icon-list-footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  list-style: none;
+  justify-content: center;
+}
+
+.icon-link-footer {
+  width: 100%;
+  height: 100%;
+  background-color: var(--buttons-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-link-footer:hover,
+.icon-link-footer:focus {
+  background-color: #31d0aa;
+}
 .icons-link {
   width: 100%;
   height: 100%;
@@ -376,7 +398,7 @@ ul {
 
 .item-icons {
   max-width: 100%;
-  width: calc((100% - 120px) / 6);
+  width: calc(100% - 120px) / 6;
 }
 .customers-icons {
   fill: currentColor;
@@ -457,13 +479,13 @@ ul {
   margin-right: 120px;
 }
 .title-social-media {
+  margin-bottom: 16px;
   color: var(--background-color);
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  margin-bottom: 16px;
 }
 
 .social-media-footer {
