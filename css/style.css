@@ -274,13 +274,12 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
   justify-content: center;
 }
 
-.icon-link :hover{
+.icons-link:hover,
+.icons-link:focus
+{
   background-color:#404bbf;
 }
 
-.icon-link :focus{
-  background-color:#404bbf;
-}
 .icon-item {
   width: 40px;
   height: 40px;
