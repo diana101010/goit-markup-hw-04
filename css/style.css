@@ -326,13 +326,20 @@ ul {
   line-height: 40px;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 72px;
 }
 
 .customers-icons {
-  width: 1440px;
-  height: 3200px;
+  width: 104px;
+  height: 56px;
 }
 
+.customer-icons-list {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
 .rectangular {
   display: flex;
   align-items: center;
@@ -371,6 +378,20 @@ ul {
   margin-bottom: 16px;
 }
 
+.title-social-media {
+  color: var(--background-color);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+.social-media-footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 /* PORTOFOLIO */
 .portfolio-container {
   padding: 96px 0 120px 0;
