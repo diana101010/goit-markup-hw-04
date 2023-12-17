@@ -239,9 +239,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
   margin-left: 100px;
 }
 .social-media-icons {
-  width: 16px;
-  height: 16px;
-  fill: #f4f4fd;
+  fill: var(--background-color-button);
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -260,7 +258,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 .icons-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24 px;
+  gap: 24px;
   list-style: none;
   justify-content: center;
 }
@@ -269,18 +267,19 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 .icons-link{
    width: 100%;
    height: 100%;
-   background-color:var(var(--buttons-color));
+   background-color: var(--buttons-color);
   border-radius: 50%;
   display: flex;
+  align-items: center;
   align-items: center;
 }
 
 .icon-link :hover{
-  background-color: #404bbf;
+  background-color:#404bbf;
 }
 
 .icon-link :focus{
-  background-color: #404bbf;
+  background-color:#404bbf;
 }
 .icon-item {
   width: 40px;
