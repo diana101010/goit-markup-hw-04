@@ -215,6 +215,10 @@ ul {
   border-radius: 4px;
 }
 
+.icons-dimensions {
+  width: 64px;
+  height: 64px;
+}
 .social-media-icons {
   width: 24px;
   height: 24px;
