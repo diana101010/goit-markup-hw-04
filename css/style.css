@@ -229,6 +229,9 @@ ul {
 }
 
 .elipse {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 40px;
   height: 40px;
   background-color: #4d5ae5;
@@ -323,6 +326,22 @@ ul {
   line-height: 40px;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+}
+
+.customers-icons {
+  width: 1440px;
+  height: 3200px;
+}
+
+.rectangular {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 168px;
+  height: 88px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
 }
 /* FOOTER */
 .footer {
