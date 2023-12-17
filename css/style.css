@@ -137,8 +137,7 @@ ul {
 
 .title-section {
   background-image: linear-gradient(
-      to bottom,
-      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0 7),
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people-office\ 1.jpg);
@@ -285,8 +284,8 @@ ul {
   justify-content: center;
 }
 
-.icon-link-footer:hover,
-.icon-link-footer:focus {
+.icons-link-footer:hover,
+.icons-link-footer:focus {
   background-color: #31d0aa;
 }
 .icons-link {
