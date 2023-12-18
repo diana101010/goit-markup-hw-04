@@ -395,8 +395,7 @@ ul {
 }
 
 .item-icons {
-  background-color: #fff;
-  width: 168px;
+  width: calc((100% - 120px) / 6);
   height: 88px;
 }
 .customers-icons {
