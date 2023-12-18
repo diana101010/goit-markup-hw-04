@@ -18,6 +18,9 @@ body {
   background-color: var(--background-color);
 }
 
+h2 {
+  margin: 0;
+}
 ul {
   list-style: none;
 }
@@ -397,6 +400,8 @@ ul {
 }
 
 .item-icons {
+  height: 88px;
+  width: 168px;
   width: calc(100% - 120px) / 6;
 }
 .customers-icons {
