@@ -21,6 +21,11 @@ body {
 h2 {
   margin: 0;
 }
+
+p {
+  margin: 0;
+}
+
 ul {
   list-style: none;
 }
@@ -402,6 +407,8 @@ ul {
 .item-icons {
   height: 88px;
   width: 168px;
+  width: 100%;
+  max-width: 264px;
   width: calc(100% - 120px) / 6;
 }
 .customers-icons {
@@ -468,6 +475,7 @@ ul {
 }
 
 .logo-footer {
+  margin-bottom: 16px;
   color: var(--buttons-color);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -477,8 +485,6 @@ ul {
   text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
-  margin-bottom: 16px;
-  margin: 0;
 }
 .partial-footer {
   margin-right: 120px;
