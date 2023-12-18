@@ -388,7 +388,6 @@ ul {
 }
 
 .customers-title {
-  margin: 0;
   margin-bottom: 72px;
   color: var(--brand-color);
   font-family: Roboto;
@@ -401,7 +400,7 @@ ul {
 }
 
 .item-icons {
-  width: calc(100% - 120px) / 6;
+  background-color: #fff;
   width: 168px;
   height: 88px;
 }
@@ -412,10 +411,10 @@ ul {
 }
 
 .customer-icons-list {
-  display: flex;
-  flex-direction: row;
+  justify-content: center;
+  text-align: center;
   gap: 24px;
-  height: 88px;
+  display: flex;
 }
 
 .icons-link-customers {
