@@ -136,11 +136,9 @@ ul {
 }
 
 .title-section {
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    )
-    url(../images/people-office\ 1.jpg);
+  background-image: linear-gradient
+    (rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7))
+    url(../images/people-office.jpg);
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
@@ -397,7 +395,7 @@ ul {
 }
 
 .item-icons {
-  width: calc((100% - 120px) / 6);
+  width: calc(100% - 120px) / 6;
 }
 .customers-icons {
   fill: currentColor;
@@ -474,7 +472,6 @@ ul {
   display: inline-block;
   margin: 0;
   margin-top: 16px;
-  margin-bottom: 16px;
 }
 .partial-footer {
   margin-right: 120px;
