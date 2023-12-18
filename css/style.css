@@ -401,11 +401,9 @@ ul {
 }
 
 .item-icons {
-  height: 88px;
+  background-color: #fff;
   width: 168px;
-  width: 100%;
-  max-width: 264px;
-  width: calc(100% - 120px) / 6;
+  height: 88px;
 }
 .customers-icons {
   fill: currentColor;
