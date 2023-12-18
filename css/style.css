@@ -247,9 +247,6 @@ ul {
 }
 .social-media-icons {
   fill: var(--background-color-button);
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
 }
 
 .elipse {
