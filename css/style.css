@@ -261,10 +261,10 @@ ul {
 }
 .icons-list {
   display: flex;
-  flex-wrap: wrap;
   gap: 24px;
   list-style: none;
   justify-content: center;
+  margin-top: 8px;
 }
 
 .icons-list-footer {
@@ -290,8 +290,9 @@ ul {
   background-color: #31d0aa;
 }
 .icons-link {
-  width: 100%;
-  height: 100%;
+  /* 100% */
+  width: 40px;
+  height: 40px;
   background-color: var(--buttons-color);
   border-radius: 50%;
   display: flex;
@@ -307,7 +308,6 @@ ul {
 .icon-item {
   width: 40px;
   height: 40px;
-  flex-basis: calc((100% - 4 * 40) / 4);
 }
 /* SECTION 3 */
 .images-container {
@@ -349,9 +349,7 @@ ul {
 .persons {
   padding: 32px 0;
   background-color: #ffffff;
-  display: flex;
-  justify-content: center;
-  gap: 24px;
+  text-align: center;
 }
 
 .job-item {
